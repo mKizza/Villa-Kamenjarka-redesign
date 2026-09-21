@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="relative h-[100svh] w-full overflow-hidden">
+    <section id="about" className="relative h-[100dvh] w-full overflow-hidden">
       {/* BACKGROUND */}
       <img
         src="/images/about/kamenjarka-about.webp"

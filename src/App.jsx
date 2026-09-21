@@ -12,7 +12,7 @@ function App() {
       {/* HERO */}
       <section
         id="home"
-        className="relative h-[100svh] w-full overflow-hidden bg-black"
+        className="relative h-[100dvh] w-full overflow-hidden bg-black"
       >
         <HeroGallery />
         <Navbar />

@@ -42,7 +42,7 @@ function Gallery() {
     <>
       <section
         id="gallery"
-        className="relative h-[100svh] w-full overflow-hidden bg-[#1d1c19]"
+        className="relative h-[100dvh] w-full overflow-hidden bg-[#1d1c19]"
       >
         <div className="flex h-full flex-col px-7 pt-9 pb-7">
           {/* SMALL TITLE */}
