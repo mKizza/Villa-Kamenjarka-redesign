@@ -168,7 +168,7 @@ function Gallery() {
               className="relative row-span-2 overflow-hidden border-0 bg-transparent p-0"
             >
               <img
-                src={images[0]}
+                src={imagesBackground[0]}
                 alt="Villa Kamenjarka"
                 className="absolute inset-0 h-full w-full object-cover"
               />
@@ -202,7 +202,7 @@ function Gallery() {
               className="relative overflow-hidden border-0 bg-transparent p-0"
             >
               <img
-                src={images[2]}
+                src={imagesBackground[2]}
                 alt="Villa Kamenjarka"
                 className="absolute inset-0 h-full w-full object-cover"
               />
