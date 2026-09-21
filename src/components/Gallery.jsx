@@ -243,7 +243,26 @@ function Gallery() {
 
       {/* FULLSCREEN GALLERY */}
       {open && (
-        <div className="fixed inset-0 z-[100] bg-black">
+        <div
+          className="fixed inset-0 z-[100] bg-black"
+          tabIndex={0}
+          autoFocus
+          onKeyDown={(e) => {
+            console.log("TIPKA:", e.key);
+
+            if (e.key === "ArrowRight") {
+              nextImage();
+            }
+
+            if (e.key === "ArrowLeft") {
+              previousImage();
+            }
+
+            if (e.key === "Escape") {
+              setOpen(false);
+            }
+          }}
+        >
           <img
             src={images[current]}
             alt="Villa Kamenjarka"
